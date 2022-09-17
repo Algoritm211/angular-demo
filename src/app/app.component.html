@@ -1,6 +1,10 @@
 <h1>
   {{ title }}
 </h1>
+<nav>
+  <a routerLink="/heroes">Go to full list of heroes</a>
+  <a routerLink="/dashboard">Dashboard</a>
+</nav>
 
-<app-heroes></app-heroes>
+<router-outlet></router-outlet>
 <app-messages></app-messages>
