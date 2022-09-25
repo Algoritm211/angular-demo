@@ -11,6 +11,10 @@ nav a {
   border-radius: 4px;
 }
 
+nav a:not(:last-child) {
+  margin-right: 10px;
+}
+
 nav a:hover {
   color: white;
   background-color: #42545C;
